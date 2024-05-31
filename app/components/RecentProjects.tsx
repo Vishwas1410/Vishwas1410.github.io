@@ -4,7 +4,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 const RecentProjects = () => {
   return (
-    <div className=" py-20 ">
+    <div className=" py-20 w-fit " id="projects">
       <h1 className=" heading">
         A Small selection of{" "}
         <span className="text-purple">Recent Projects</span>{" "}
@@ -13,14 +13,14 @@ const RecentProjects = () => {
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
             key={id}
-            className="sm:h-[41rem] h-[32.5rem] lg:min-h-[28.5rem] sm:w-[570px] flex items-center justify-center  w-[80vw]"
+            className="sm:h-[41rem] h-[32.5rem] lg:min-h-[28.5rem] sm:w-[570px] w-full flex items-center justify-center"
           >
             <PinContainer title={link} href={link}>
                 <div className="relative flex items-center  justify-center overflow-hidden sm:w-[570px] sm:h-[40vh]  h-[30vh] mb-10 w-[50vw]">
-                    <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
-                        <img src="/bg.png" alt="bg-img" />
+                    <div className="relative w-full  h-full  lg:rounded-3xl bg-[#13162d]">
+                        <img src={img} alt={title} className=" w-full h-full rounded-xl" />
                     </div>
-                    <img src={img} alt={title} className=" z-10 absolute bottom-0" />
+                    {/* <img src={img} alt={title} className=" z-10 absolute h-[90vh] w-[120hw] " /> */}
                 </div>
                     <h1 className="md:text-xl text-base font-bold lg:text-2xl line-clamp-1">
                         {title}
@@ -39,9 +39,9 @@ const RecentProjects = () => {
                         ))}
                         </div>
                         <div className="flex justify-center items-center">
-                            <p className=" flex lg:text-xl md:text-xs text-sm text-purple ">
-                                Chexk Live Site
-                            </p>
+                            <a href={link} target="_blank" rel="noopener noreferrer" className=" flex lg:text-xl md:text-xs text-sm text-purple ">
+                                Check Live Site
+                            </a>
                             <FaLocationArrow className="ms-3" color="#CBACF9"/>
                         </div>
                     </div>

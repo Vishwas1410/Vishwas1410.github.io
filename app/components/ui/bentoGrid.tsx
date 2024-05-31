@@ -6,7 +6,7 @@ import { GlobeDemo } from "./GridGlobe";
 import { div } from "three/examples/jsm/nodes/Nodes.js";
 import Lottie from "react-lottie";
 import { useState } from "react";
-import animationData from "@/data/confetti.json";
+import AnimationData from "@/data/confetti.json";
 import MagicButton from "./magicButton";
 import { IoCopyOutline } from "react-icons/io5";
 export const BentoGrid = ({
@@ -19,7 +19,7 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        "grid lg:grid-cols-5 w-full  lg:grid-rows-5 md:grid-rows-7 md:auto-rows-[18rem] md:grid-cols-3 gap-6  mx-auto ",
+        "grid lg:grid-cols-5 w-full  lg:grid-rows-4 md:grid-rows-7 md:auto-rows-[18rem] md:grid-cols-3 gap-6  mx-auto ",
         className
       )}
     >
@@ -139,7 +139,7 @@ setcopied(true);
                 <Lottie options={{
                     loop:copied,
                     autoplay: copied,
-                    animationData: animationData,
+                    animationData: AnimationData,
                     rendererSettings: {
                         preserveAspectRatio: 'xMidYMid slice'
                     }
