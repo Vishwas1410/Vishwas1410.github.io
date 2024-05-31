@@ -18,7 +18,7 @@ const Certificates = () => {
                         {card.title}
                        
                       </h1>
-                      <div className=" flex text-purple  items-center justify-end">
+                      <div key={card.id} className=" flex text-purple  items-center justify-end">
                           ~{card.provider}
                         </div>
 
@@ -28,7 +28,7 @@ const Certificates = () => {
                         </div>
                        <div className=" rounded-full h-fit p-2 grid grid-cols-3 grid-rows-3 gap-1 text-xs" >
                        {card.skills.map((skill)=>
-                      <div className=" h-full shadow-sm shadow-black-100 w-full flex items-center justify-center col-span-1 row-span-1 border border-blue-400/80 rounded-xl m-0.5 p-2">{skill}</div>)}
+                      <div key={skill} className=" h-full shadow-sm shadow-black-100 w-full flex items-center justify-center col-span-1 row-span-1 border border-blue-400/80 rounded-xl m-0.5 p-2">{skill}</div>)}
                        </div>
                       </h3>
                       <p className="text-start mt-3 font-medium text-white-100 ">

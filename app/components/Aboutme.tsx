@@ -14,7 +14,7 @@ const Aboutme = () => {
         </div>
         <div id="aboutMe" className=" text-center flex-1 items-center justify-center  lg:text-xl md:text-lg font-Hind">
         {/* Motivated and detail-oriented B.Tech Computer Science student with a strong foundation in coding languages, frameworks, and problem-solving. Possesses excellent communication skills and a keen interest in software development, ethical hacking, networking, and mobile application development. */}
-        Hey there! I'm Vishwas, a 3rd-year B.Tech Computer Science student at Parul University (Vadodara, India) on the hunt for a web development job. Coding is my jam, and I'm especially stoked about React, Angular, Next.js, and Node.js. While I can whip up a sleek front-end, my true passion lies in tackling back-end challenges with Express.js -  give me a problem and I'll solve it in no time!
+        Hey there! I&apos;m Vishwas, a 3rd-year B.Tech Computer Science student at Parul University (Vadodara, India) on the hunt for a web development job. Coding is my jam, and I&apos;m especially stoked about React, Angular, Next.js, and Node.js. While I can whip up a sleek front-end, my true passion lies in tackling back-end challenges with Express.js -  give me a problem and I&apos;ll solve it in no time!
         </div>
     </div>
   )
