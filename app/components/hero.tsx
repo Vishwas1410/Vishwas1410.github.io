@@ -22,12 +22,12 @@ const Hero = () => {
       </div>
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <h2 className="uppercase text-blue-100 tracking-widest text-xs text-center  max-w-80">
+          {/* <h2 className="uppercase text-blue-100 tracking-widest text-xs text-center  max-w-80">
             Dynamic Web Magic With Next.Js
-          </h2>
+          </h2> */}
           <TextGenerateEffect className="text-center  text-[43px] md:text-5xl lg:text-6xl" words="Looking For A Full-Stack Web Developer?"/>
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl  ">
-            Hi, I&apos;m Vishwas, a Next.js Developer based in India.
+            Hi, I&apos;m Vishwas, a Web Developer based in India.
           </p>
           <a href="#about">
             <MagicButton title="Show My Work" icon={<FaLocationArrow/>} position="right" />

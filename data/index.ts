@@ -74,7 +74,7 @@ export const projects = [
     id: 1,
     title: "ECommerce Website",
     des: "Crafted by me, this MERN stack ecommerce site boasts Stripe payments, 14+ admin dashboard charts, and advanced product filtering. Seamlessly developed through all software development stages, it delivers a top-notch shopping experience",
-    img: "/p1.svg",
+    img: "/Ecommerce.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://github.com/Vishwas1410/MERN-Ecommerce-Web-App",
   },
